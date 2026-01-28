@@ -46,10 +46,10 @@ const ContactSection = () => {
               <h3 className="font-display text-xl font-semibold text-foreground">Phone</h3>
             </div>
             <a 
-              href="tel:+918490002580" 
+              href="tel:+919904604946" 
               className="text-2xl font-semibold text-primary hover:text-gold transition-colors duration-300 flex items-center gap-2"
             >
-              +91 84900 02580
+              +91 99046 04946
             </a>
             <p className="text-muted-foreground mt-2 text-sm">
               Click to call directly

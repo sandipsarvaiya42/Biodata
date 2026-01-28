@@ -44,12 +44,12 @@ const FamilyDetails = () => {
       relation: "Father",
       name: "Vijaybhai Pravinbhai Parmar",
       occupation: "Job at Intricast (Shapar)",
-      maternal: "Dhangdhra, Surendranagar",
+      maternal: "Dhangdhra, Surendranagar(Solanki)",
     },
     {
       relation: "Mother",
       name: "Sonalben Vijaybhai Parmar",
-      maternal: "Morbi",
+      maternal: "Morbi(Dodiya)",
     },
     {
       relation: "Sister",
@@ -58,7 +58,7 @@ const FamilyDetails = () => {
     {
       relation: "Grandmother",
       name: "Arvindaben Pravinbhai Parmar",
-      maternal: "Dhrangdhra, Surendranagar",
+      
     },
     {
       relation: "Aunty",
