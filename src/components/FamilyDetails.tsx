@@ -18,7 +18,7 @@ const FamilyMemberCard = ({ relation, name, occupation, maternal }: FamilyMember
       </span>
     </div>
     
-    <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+    <h3 className="font-display text-xl text-foreground mb-3">
       {name}
     </h3>
     
@@ -46,15 +46,15 @@ const FamilyDetails = () => {
     },
     {
       relation: "Mother",
-      name: "Jyotsnaben Sarvaiya",
+      name: "Jyotsnaben Natvarbhai Sarvaiya",
     },
     {
       relation: "Brother",
-      name: "Sagar Sarvaiya",
+      name: "Sagar Natvarbhai Sarvaiya",
     },
     {
       relation: "Sister",
-      name: "Alpa Sarvaiya",
+      name: "Alpa Natvarbhai Sarvaiya",
     },
   ];
 

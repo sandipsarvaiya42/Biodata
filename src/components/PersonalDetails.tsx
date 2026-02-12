@@ -25,7 +25,7 @@ const PersonalDetails = () => {
     { icon: <Heart size={20} />, label: "Caste", value: "Hindu, Rajput" },
     { icon: <GraduationCap size={20} />, label: "Education", value: "B.C.A, M.C.A" },
     { icon: <Ruler size={20} />, label: "Height", value: "5'6\"" },
-    // { icon: <Scale size={20} />, label: "Weight", value: "62 Kg" },
+    { icon: <Scale size={20} />, label: "Weight", value: "65 Kg" },
     // { icon: <Briefcase size={20} />, label: "Occupation", value: "Software Engineer at Xappiens LLC (Madrid, Spain)" },
     { icon: <MapPin size={20} />, label: "Native", value: "Bharudi" },
   ];
