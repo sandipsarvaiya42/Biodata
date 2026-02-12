@@ -42,27 +42,19 @@ const FamilyDetails = () => {
   const familyMembers = [
     {
       relation: "Father",
-      name: "Vijaybhai Pravinbhai Parmar",
-      occupation: "Job at Intricast (Shapar)",
-      maternal: "Dhangdhra, Surendranagar(Solanki)",
+      name: "Natvarbhai Nanjibhai Sarvaiya",
     },
     {
       relation: "Mother",
-      name: "Sonalben Vijaybhai Parmar",
-      maternal: "Morbi(Gohil)",
+      name: "Jyotsnaben Sarvaiya",
+    },
+    {
+      relation: "Brother",
+      name: "Sagar Sarvaiya",
     },
     {
       relation: "Sister",
-      name: "Hiral Vijaybhai Parmar",
-    },
-    {
-      relation: "Grandmother",
-      name: "Arvindaben Pravinbhai Parmar",
-      
-    },
-    {
-      relation: "Aunty",
-      name: "Varshaben Pravinbhai Parmar",
+      name: "Alpa Sarvaiya",
     },
   ];
 
@@ -85,14 +77,12 @@ const FamilyDetails = () => {
         </div>
 
         {/* Family Grid */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {familyMembers.map((member) => (
             <FamilyMemberCard
               key={member.relation}
               relation={member.relation}
               name={member.name}
-              occupation={member.occupation}
-              maternal={member.maternal}
             />
           ))}
         </div>

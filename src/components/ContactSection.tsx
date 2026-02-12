@@ -30,9 +30,8 @@ const ContactSection = () => {
               <h3 className="font-display text-xl font-semibold text-foreground">Address</h3>
             </div>
             <div className="text-muted-foreground leading-relaxed">
-              <p className="font-medium text-foreground">"Maninivas", Yoginagar</p>
-              <p>Near Bharat Oil Mill</p>
-              <p>Gondal - 360311</p>
+              <p className="font-medium text-foreground">At. Bharudi</p>
+              <p>Ta. Gondal - 360311</p>
               <p>Gujarat, India</p>
             </div>
           </div>
@@ -46,10 +45,10 @@ const ContactSection = () => {
               <h3 className="font-display text-xl font-semibold text-foreground">Phone</h3>
             </div>
             <a 
-              href="tel:+919904604946" 
+              href="tel:+91 9925683954" 
               className="text-2xl font-semibold text-primary hover:text-gold transition-colors duration-300 flex items-center gap-2"
             >
-              +91 99046 04946
+              +91 99256 83954
             </a>
             <p className="text-muted-foreground mt-2 text-sm">
               Click to call directly

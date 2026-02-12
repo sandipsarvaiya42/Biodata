@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-gold shadow-elevated">
             <img
               src={profilePhoto}
-              alt="Amit Vijaybhai Parmar"
+              alt="Sandip Sarvaiya"
               className="w-full h-full object-cover object-top"
             />
           </div>
@@ -33,19 +33,19 @@ const HeroSection = () => {
 
         {/* Name */}
         <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-4">
-          Amit Vijaybhai Parmar
+          Sandip Sarvaiya
         </h1>
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-muted-foreground font-light mb-6">
-          Software Engineer • B.C.A, M.C.A
+          {/* Software Engineer • B.C.A, M.C.A */}
         </p>
 
         {/* Location */}
         <div className="inline-flex items-center gap-2 px-6 py-3 bg-card rounded-full shadow-soft border border-border">
           <span className="text-primary">📍</span>
           <span className="text-sm font-medium text-foreground">
-            Gondal, Gujarat, India
+            Bharudi
           </span>
         </div>
 

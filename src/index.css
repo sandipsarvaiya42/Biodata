@@ -103,7 +103,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-body;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -114,7 +114,7 @@
 
 @layer utilities {
   .font-display {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   .font-body {

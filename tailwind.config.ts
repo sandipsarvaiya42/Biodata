@@ -68,7 +68,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        display: ['Playfair Display', 'serif'],
+        display: ['Poppins', 'sans-serif'],
         sans: ['Poppins', 'sans-serif'],
       },
       boxShadow: {

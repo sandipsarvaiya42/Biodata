@@ -20,14 +20,14 @@ const DetailItem = ({ icon, label, value }: DetailItemProps) => (
 
 const PersonalDetails = () => {
   const details = [
-    { icon: <User size={20} />, label: "Full Name", value: "Amit Vijaybhai Parmar" },
-    { icon: <Calendar size={20} />, label: "Date of Birth", value: "18th November, 2002" },
+    { icon: <User size={20} />, label: "Full Name", value: "Sandip Natvarbhai Sarvaiya" },
+    { icon: <Calendar size={20} />, label: "Date of Birth", value: "4th February, 2003" },
     { icon: <Heart size={20} />, label: "Caste", value: "Hindu, Rajput" },
     { icon: <GraduationCap size={20} />, label: "Education", value: "B.C.A, M.C.A" },
-    { icon: <Ruler size={20} />, label: "Height", value: "5'7\"" },
-    { icon: <Scale size={20} />, label: "Weight", value: "62 Kg" },
-    { icon: <Briefcase size={20} />, label: "Occupation", value: "Software Engineer at Xappiens LLC (Madrid, Spain)" },
-    { icon: <MapPin size={20} />, label: "Native", value: "Amarnagar, Vadiya" },
+    { icon: <Ruler size={20} />, label: "Height", value: "5'6\"" },
+    // { icon: <Scale size={20} />, label: "Weight", value: "62 Kg" },
+    // { icon: <Briefcase size={20} />, label: "Occupation", value: "Software Engineer at Xappiens LLC (Madrid, Spain)" },
+    { icon: <MapPin size={20} />, label: "Native", value: "Bharudi" },
   ];
 
   return (
@@ -62,7 +62,7 @@ const PersonalDetails = () => {
       {/* Maternal Info */}
         <div className="mt-8 p-6 bg-secondary/50 rounded-xl border border-border">
           <p className="text-sm text-muted-foreground uppercase tracking-wide mb-2">Maternal</p>
-          <p className="text-foreground font-medium">Morbi(Dodiya)</p>
+          <p className="text-foreground font-medium">Mukesbhai Chothabhai Vaghela(Valadungra)</p>
         </div>
       
     </section>

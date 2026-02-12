@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         
         <p className="font-display text-lg font-medium mb-2">
-          Amit Vijaybhai Parmar
+          Sandip Natvarbhai Sarvaiya
         </p>
         
         <p className="text-primary-foreground/70 text-sm">
