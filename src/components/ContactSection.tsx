@@ -14,9 +14,6 @@ const ContactSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3">
             Contact Details
           </h2>
-          <p className="text-muted-foreground">
-            Get in touch with us
-          </p>
         </div>
 
         {/* Contact Cards */}
@@ -64,9 +61,6 @@ const ContactSection = () => {
               <span className="text-gold text-2xl">❈</span>
               <div className="h-px w-20 bg-gradient-to-r from-transparent via-gold to-transparent" />
             </div>
-            <p className="text-muted-foreground text-sm italic">
-              "A journey of a thousand miles begins with a single step"
-            </p>
           </div>
         </div>
       </div>
