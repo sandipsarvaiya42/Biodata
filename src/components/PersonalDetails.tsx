@@ -22,7 +22,7 @@ const PersonalDetails = () => {
   const details = [
     { icon: <User size={20} />, label: "Full Name", value: "Sandip Natvarbhai Sarvaiya" },
     { icon: <Calendar size={20} />, label: "Date of Birth", value: "4th February, 2003" },
-    { icon: <Heart size={20} />, label: "Caste", value: "Hindu, Rajput" },
+    { icon: <Heart size={20} />, label: "Caste", value: "Khant, Rajput" },
     { icon: <GraduationCap size={20} />, label: "Education", value: "B.C.A, M.C.A" },
     { icon: <Ruler size={20} />, label: "Height", value: "5'6\"" },
     { icon: <Scale size={20} />, label: "Weight", value: "65 Kg" },
